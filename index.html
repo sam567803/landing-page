@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="scripts/navigation.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+
+ <header class="header"><a href="#home" class="logo">Samardeep <span>Singh</span></a>
+    <nav class="site-navigation" id="site-navigation">
+           
+
+              <ul class="nav-links">
+                <li><a href="#AboutMe" class="active">About Me</a></li>
+                <li><a href="#projects">projects</a></li>
+                <li><a href="#contact">contacts</a></li>
+                
+              </ul> 
+            
+            
+    </nav>
+    <nav id="hamburger-nav">
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="menu-links">
+                    <li><a href="#AboutMe" onclick="toggleMenu()">About Me</a></li>
+                    <li><a href="#projects" onclick="toggleMenu()">projects</a></li>
+                    <li><a href="#contact" onclick="toggleMenu()" >contacts</a></li>
+                    
+                </ul>
+              </div>
+    </nav>
+ </header>
+                
+                
+                
+        
+ <section id="profile">
+        <div class="section__pic-container">
+            <img src="./images/programmer.jpg" alt="gamer">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, my name is </p>
+            <h1 class="title"> Sam Singh</h1>
+            <p class="section__text__p2">I am a <span></span></p>
+            <a href="#projects">View My Work</a>
+            <div id="socials-container">
+                <img
+                src="./images/social_10097160.png"
+                alt="My LinkedIn profile"
+                class="icon"
+                onclick="location.href='https://linkedin.com/'"
+                >
+                <img
+                src="./images/github_5968896.png"
+                alt="My Github profile"
+                class="icon"
+                onclick="location.href='https://github.com/'"
+                >
+            </div>
+         </div>    
+ </section>
+ <section id="AboutMe">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+
+          <div class="about-details-container">
+            <div class="about-containers">
+              <div class="details-container">
+                  <img
+                  src="./images/experience.png"
+                  alt="Experience icon"
+                  class="icon"
+                  >
+                  <h3>Experience</h3>
+                  <p>No prior experience in coding</p>
+                </div>
+                <div class="details-container">
+                    <img
+                    src="./images/teach.png"
+                    alt="Education icon"
+                    class="icon"
+                    >
+                    <h3>Education</h3>
+                    <p>Topper in the science stream(13th class) <br> Aspiring Civil Engineer</p>
+                </div>
+            </div>
+            <div class="text-container">
+                <p>
+                    I am currently enrolled in two courses at BCIT which are the FWDP and b.tech in civil engineering .I am 19 years old and my background is german.Besides, being a physics lover,i love to make money.I have experience in managing restaurants as we a premium food chain in germany  
+                </p>
+            </div>
+          </div>
+        </div>
+
+ </section>
+ <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./images/coming.webp"
+                  alt="Project 1"
+                  class="project-img"
+                >
+              </div>
+              <h2 class="experience-sub-title project-title">Country Website</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='#'"
+                >
+                  View
+                </button>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./images/coming.webp"
+                  alt="Project 2"
+                  class="project-img"
+                >
+              </div>
+              <h2 class="experience-sub-title project-title">Business Website</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='#'"
+                >
+                  View
+                </button>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./images/coming.webp"
+                  alt="Project 3"
+                  class="project-img"
+                >
+              </div>
+              <h2 class="experience-sub-title project-title">JavaScript game</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='#'"
+                >
+                  View
+                </button>
+               </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./images/coming.webp"
+                  alt="Project 3"
+                  class="project-img"
+                >
+              </div>
+              <h2 class="experience-sub-title project-title">Movie Database</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='#'"
+                >
+                  View
+                </button>
+               </div>
+          </div>
+          <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./images/coming.webp"
+                  alt="Project 3"
+                  class="project-img"
+                >
+              </div>
+              <h2 class="experience-sub-title project-title">Vancouver</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='#'"
+                >
+                  View
+                 </button>
+              </div>
+           </div>
+          <div class="details-container color-container">
+                  <div class="article-container">
+                    <img
+                      src="./images/coming.webp"
+                      alt="Project 3"
+                      class="project-img"
+                    >
+                  </div>
+                  <h2 class="experience-sub-title project-title">Mindset</h2>
+                  <div class="btn-container">
+                    <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="location.href='https://github.com/'"
+                    >
+                      Github
+                    </button>
+                    <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="location.href='#'"
+                    >
+                      View
+            
+                      </button>
+                    </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./images/coming.webp"
+                  alt="Project 3"
+                  class="project-img"
+              >
+              </div>
+              <h2 class="experience-sub-title project-title">Shopify store</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='#'"
+                >
+                  View
+                 </button>
+              </div>
+           </div>
+           <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./images/coming.webp"
+                alt="Project 3"
+                class="project-img"
+              >
+            </div>
+            <h2 class="experience-sub-title project-title">Woocommerce</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='#'"
+              >
+                View
+               </button>
+            </div>
+         </div>
+                
+          </div>
+            </div>
+ </section>
+  <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+           src="./images/13678050.png"
+           alt="Email icon"
+           class="icon contact-icon email-icon"
+          >
+          <p><a href="mailto:examplemail@gmail.com">E-Mail</a></p>
+        </div>
+        <div class="contact-info-container">
+         <img
+            src="./images/social_10097160.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          >
+          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+        </div>
+      </div>
+ </section>
+    <footer>
+      <p>Copyright &#169; 2024 Sam Singh. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
